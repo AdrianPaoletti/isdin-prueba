@@ -1,6 +1,4 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",
@@ -18,8 +16,17 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "lang": "es-ES",
+  "name": "ISDIN",
+  "orientation": "portrait",
+  "prefer_related_application": false,
+  "scope": "/",
+  "short_name": "ISDIN",
+  "start_url": "/",
+  "theme_color": "#FFF",
+  "background_color": "#ffffff",
+  "description": "ISDIN",
+  "dir": "ltr",
+  "display_override": ["standalone"],
+  "display": "standalone"
 }
