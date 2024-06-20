@@ -4,7 +4,7 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 import { getMessaging } from "firebase/messaging";
 
-const firebaseConfig = {
+export const firebaseConfig = {
   apiKey: "AIzaSyAPpH4d2Ga36fqpxZpoBE4DFBw3axItZbM",
   authDomain: "pwa-firebase-isdin.firebaseapp.com",
   projectId: "pwa-firebase-isdin",

@@ -1,8 +1,8 @@
 /* eslint-disable no-restricted-globals */
 /* eslint-disable no-undef */
 // Scripts for firebase and firebase messaging
-importScripts('https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js');
-importScripts('https://www.gstatic.com/firebasejs/9.0.0/firebase-messaging.js');
+importScripts('https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js');
+importScripts('https://www.gstatic.com/firebasejs/8.6.1/firebase-messaging.js');
 
 // Initialize the Firebase app in the service worker
 // "Default" Firebase configuration (prevents errors)
