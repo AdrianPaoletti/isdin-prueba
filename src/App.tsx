@@ -12,12 +12,10 @@ function App() {
   async function requestPermission() {
     //requesting permission using Notification API
     const permission = await Notification.requestPermission();
-
     if (permission === "granted") {
       const token = await getToken(messaging, {
         vapidKey: "BOahF2M0a6QCg1MOQB2i-UJlvLUoAj9jDWDvc1Dtf8amStSs0ZVzt12D6Pf5qmlxtpuqEz8vr51RY3avlbPbT_c",
       });
-
       //We can send token to server
       setToken(token)
       console.log("Token generated : ", token);
@@ -40,7 +38,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h3 style={{ color: "#fff"}}>{token}</h3>
+        <div style={{ display: "flex", flexWrap: "wrap", color: "white", fontSize: "10px"}}>
+          <p>{token}</p>
+        </div>
+        {/* <h3 style={{ color: "#fff"}}>{token}</h3> */}
       </header>
       <ToastContainer />
     </div>
