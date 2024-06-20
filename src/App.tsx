@@ -16,11 +16,9 @@ function App() {
       const token = await getToken(messaging, {
         vapidKey: "BOahF2M0a6QCg1MOQB2i-UJlvLUoAj9jDWDvc1Dtf8amStSs0ZVzt12D6Pf5qmlxtpuqEz8vr51RY3avlbPbT_c",
       });
-      //We can send token to server
       setToken(token)
       console.log("Token generated : ", token);
     } else if (permission === "denied") {
-      //notifications are blocked
       alert("You denied for the notification");
     }
 

@@ -1,7 +1,4 @@
 import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-import { getAuth } from "firebase/auth";
-import { getFirestore } from "firebase/firestore";
 import { getMessaging } from "firebase/messaging";
 
 export const firebaseConfig = {
@@ -14,10 +11,7 @@ export const firebaseConfig = {
 };
 
 const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
-const auth = getAuth(app);
-const firestore = getFirestore(app);
 const messaging = getMessaging(app);
 
-export { app, analytics, auth, firestore, messaging };
+export { app, messaging };
 
