@@ -10,10 +10,11 @@
     "@types/node": "^16.18.100",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
+    "firebase": "^10.12.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
-    "typescript": "^4.9.5",
+    "react-toastify": "^10.0.5",
     "web-vitals": "^2.1.4",
     "workbox-core": "^7.1.0",
     "workbox-expiration": "^7.1.0",
@@ -44,5 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
   }
 }
