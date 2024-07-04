@@ -28,15 +28,16 @@ function App() {
     toast(<Message notification={payload.notification} />);
   });
 
-  useEffect(() => {
-    requestPermission();
-  }, []);
+  // useEffect(() => {
+  //   requestPermission();
+  // }, []);
 
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <div style={{ display: "flex", flexWrap: "wrap", color: "white", fontSize: "10px", textWrap: "wrap"}}>
+        <div style={{ display: "flex", alignItems: "center", flexDirection: 'column',flexWrap: "wrap", color: "white", fontSize: "10px", textWrap: "wrap"}}>
+          <button style={{ padding: "1rem", borderRadius: "1rem", width: "fit-content", margin: '1rem 0'}} onClick={requestPermission}>Click for permission</button>
           <p>{token}</p>
         </div>
         {/* <h3 style={{ color: "#fff"}}>{token}</h3> */}
