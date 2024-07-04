@@ -27,6 +27,6 @@
   "background_color": "#ffffff",
   "description": "ISDIN",
   "dir": "ltr",
-  "display_override": ["standalone"],
-  "display": "standalone"
+  "display_override": ["fullscreen"],
+  "display": "fullscreen"
 }

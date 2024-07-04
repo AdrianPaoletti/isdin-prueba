@@ -36,7 +36,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <div style={{ display: "flex", flexWrap: "wrap", color: "white", fontSize: "10px"}}>
+        <div style={{ display: "flex", flexWrap: "wrap", color: "white", fontSize: "10px", textWrap: "wrap"}}>
           <p>{token}</p>
         </div>
         {/* <h3 style={{ color: "#fff"}}>{token}</h3> */}
